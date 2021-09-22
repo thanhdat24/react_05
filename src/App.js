@@ -1,15 +1,23 @@
 import "./App.css";
+import BoderRadisDemo from "./TailWindComponent/BoderRadisDemo";
+import CustomCss from "./TailWindComponent/CustomCss";
+import DemoGrid from "./TailWindComponent/DemoGrid";
+import FlexDemo from "./TailWindComponent/FlexDemo";
+import PaddingMarginDemo from "./TailWindComponent/PaddingMarginDemo";
+import ResponsiveDemo from "./TailWindComponent/ResponsiveDemo";
+import TextBackGroundDemo from "./TailWindComponent/TextBackGroundDemo";
+import WidthHeightDemo from "./TailWindComponent/WidthHeightDemo";
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <div className="shadow-sm ...">abc</div>
-        <div className="shadow ...">abc</div>
-        <div className="shadow-md ...">abc</div>
-        <div className="shadow-lg ...">abc</div>
-        <div className="shadow-xl ...">abc</div>
-        <div className="shadow-2xl ...">abc</div>
-      </div>
+      {/* <DemoGrid/> */}
+      {/* <FlexDemo/> */}
+      {/* <PaddingMarginDemo/> */}
+      {/* <WidthHeightDemo/> */}
+      {/* <TextBackGroundDemo /> */}
+      {/* <BoderRadisDemo /> */}
+      {/* <ResponsiveDemo /> */}
+      <CustomCss />
     </div>
   );
 }
