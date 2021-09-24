@@ -17,6 +17,7 @@ import Include from "./Lodash/Include";
 import Uniq from "./Lodash/Uniq";
 import Flatten from "./Lodash/Flatten";
 import CompareObject from "./Lodash/CompareObject";
+import BaiTapTongHopChapter2 from "./BaiTapTongHopChapter2/BaiTapTongHopChapter2";
 function App() {
   return (
     <div className="App">
@@ -41,7 +42,8 @@ function App() {
       {/* <Include/> */}
       {/* <Uniq/> */}
       {/* <Flatten/> */}
-      <CompareObject/>
+      {/* <CompareObject/> */}
+      <BaiTapTongHopChapter2/>
     </div>
   );
 }
